@@ -1,0 +1,179 @@
+.sec1{
+    height: 250px;
+    background-image: url("images/Web\ 1920\ –\ 1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   
+   
+}
+.main{
+    height: 500px;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.sec2{
+    height: 100px;
+    background-color: green;
+    width: 100px;
+    position: fixed;
+}
+.sec3{
+    width: 1000px;
+    height: 420px;
+    background-color: white;
+    position: relative;
+    margin-top: -140px;
+    border-radius: 10px;
+     -webkit-box-shadow: 3px 6px 13px -2px rgba(0,0,0,0.63);
+    -moz-box-shadow: 3px 6px 13px -2px rgba(0,0,0,0.63);
+    box-shadow: 3px 6px 13px -2px rgba(0,0,0,0.63); ;
+}
+.sec5{
+    background-image: url("images/[GetPaidStock.com]-622b3d953d8cb.jpg");
+    background-position: center;
+    background-size: cover;
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 35%;
+    height: 230px;
+    width: 300px;
+}
+
+.r1{
+    margin-top: 200px;
+}
+.r2{
+    position: absolute;
+    margin-top: 270px;
+    width: 90%;
+    margin-left: 33px;
+    border-radius: 10px;
+    background-color: rgb(218, 248, 246);
+   
+    
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 390px;
+    position: absolute;          
+    margin-left: 40%;
+    padding: 1px 30px;
+    border-radius: 12px;
+    
+   
+}
+thead{
+   
+    border-radius: 12px;
+
+}
+.c2{
+
+    border-radius: 10px;
+   
+}
+table{
+    border-radius: 10px;
+  
+}
+tr{
+    border-radius: 10px;
+    
+}
+h2{
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 38%;
+    color: white;
+}
+.blue{
+   
+    border-radius: 15px;
+    border-color: black;
+    width: 100%;
+}
+.r3{
+    background-color:white;
+    position: absolute;
+    margin-top: 320px;
+    width: 88%;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 50px;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+table th,
+table td {
+    border: none;
+  }
+
+  td {
+    margin-left: 100px;
+  }
+ 
+/* media screen code */
+@media (max-width: 768px) {
+    .main {
+      height: 700px;
+      position: relative;
+      z-index: -1;
+    }
+    h2{
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 9%;
+        font-size: 40px;
+    }
+   
+    a{
+       margin-top: 490px;
+       margin-left: 160px;
+    }
+    
+    
+    
+    .sec3 {
+      width: 90%;
+    margin-top: -50px;
+      height: 100%;
+     
+    }
+    
+    .sec5 {
+      margin-top: 20px;
+      margin-left: 0;
+      height: 300px;
+      width: 80%;
+      
+    }
+    
+    .r2,
+    .r3 {
+      margin-top: 350px;
+      margin-left: 0;
+      width: 90%;
+      border-radius: 15px;
+    }
+   
+    
+    
+    
+    .r3 {
+      margin-top: 450px;
+      height: auto;
+    }
+    
+    .sec3 table,
+    .sec3 th,
+    .sec3 td {
+      text-align: center;
+    }
+  }
+  
